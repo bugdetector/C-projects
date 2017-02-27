@@ -30,7 +30,7 @@ int align(int column,int row, Path *direc,char *str1,char *str2);//aligning func
 int findPath(int column,int row,int i,int j,int cnt,char *str1,char *str2);//finds paths to [0,0]
 int max(int x, int y);//returns bigger one's value
 int min(int x, int y,int z);//returns smallest ones value
-int main(int argc, char **argv)
+int main(int argc, char **argv)//takes two strings as terminal parameter and calculates Levenstein edit distance
 {
     pathCount=0;
     // your code goes here
@@ -39,9 +39,9 @@ int main(int argc, char **argv)
     int i,j;//index variables
     int column =strlen(str1)+1;
     int row =strlen(str2)+1;
-    replaceP=1;
-    insertP=2;
-    deleteP=2;
+    replaceP=1;//replacion penalty point
+    insertP=2;//insertion penalty point
+    deleteP=2;//deletion penalty point
     for(i=0;i<row;i++){
         bestPath[i].direction=0;//As default assingnin 0 value for 
         path[i].direction=0;    //avoid computotion errors
