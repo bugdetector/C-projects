@@ -1,1 +1,1 @@
-# Projects done with C language
+# C dili ile gerçekleştirilmiş algoritmalar
