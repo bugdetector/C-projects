@@ -1,5 +1,5 @@
 # C dili ile gerçekleştirilmiş algoritmalar
-## Binary_Search.c
+### Binary_Search.c
 
 Sıralı halde bulunan ancak sağa ötelenmiş bir dizide arama işlemi yapar.
 
