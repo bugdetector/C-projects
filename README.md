@@ -18,3 +18,7 @@ Levenstein Edit Distance yöntemini kullanarak iki kelime arasındaki farkın ö
 ### QuickSort.c
 
 Hızlı sıralama algoritmasını sıralama amacıyla kullanmaz. Bir dizide bulunan bir sayının o dizideki kaçıncı büyük sayı olduğunu hesaplar.
+
+### Shortest_job_first.c
+
+Bir planlayıcı algoritması olan "önce en kısa iş" algoritması gerçeklenmiştir.
